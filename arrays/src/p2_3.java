@@ -16,12 +16,12 @@ public class p2_3 {
         for (int i = 0; i < k; i++) {
             rotated[i] = arr[n - k + i];
         }
-
+        System.out.println("Rotate Right: " + Arrays.toString(rotated));
         // copy remaining elements
         for (int i = k; i < n; i++) {
             rotated[i] = arr[i - k];
         }
 
-        System.out.println("Rotate Right: " + Arrays.toString(rotated));
+//        System.out.println("Rotate Right: " + Arrays.toString(rotated));
     }
 }
