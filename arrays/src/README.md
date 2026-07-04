@@ -18,5 +18,7 @@ Remove duplicates (sorted array)
 Missing number
 Leaders in array
 
-Around 10 problems.
+Phase-3 hard problems
+1.Best Time to Buy and Sell Stock (Easy)
+2.Contains Duplicate
 
