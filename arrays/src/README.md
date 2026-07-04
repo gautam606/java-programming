@@ -20,5 +20,5 @@ Leaders in array
 
 Phase-3 hard problems
 1.Best Time to Buy and Sell Stock (Easy)
-2.Contains Duplicate
+2.Contains Duplicate II
 
