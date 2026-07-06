@@ -127,3 +127,48 @@ Sum(left, right) = prefix[right] - prefix[left - 1]
 If left == 0:
 Sum = prefix[right]
 Because there is nothing before index 0.
+
+==================prefix sum day2=======================
+
+What is a Prefix Sum?
+Why do we use Prefix Sum?
+How do we build a Prefix Sum array?
+What is the time complexity to build it?
+After building it, how do we find the sum from index L to R?
+
+If you can't answer one of these, revise it before solving problems.
+
+Step 2 – Solve These Problems
+Problem 1 (Warm-up)
+
+Given:
+
+int arr[] = {2, 4, 6, 8, 10};
+
+Build the Prefix Sum array.
+
+Problem 2
+
+Using the Prefix Sum array, find the sum from:
+
+Index 1 to 3
+
+Do it without adding the numbers one by one.
+
+Problem 3
+
+Given:
+
+int arr[] = {5, 2, 7, 3, 6, 1};
+
+Answer these queries:
+
+Sum(0, 2)
+Sum(2, 5)
+Sum(1, 4)
+Problem 4
+
+Solve this LeetCode problem:
+Range Sum Query - Immutable
+
+This is one of the best beginner problems for understanding Prefix Sum.
