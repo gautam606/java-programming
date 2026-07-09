@@ -1,0 +1,60 @@
+
+*************************Majority Element*************************
+
+The straightforward approach is to compare each element with every other element and count its frequency,
+which takes O(n²). We can optimize it using a HashMap to store frequencies in one traversal,
+reducing the time complexity to O(n) with O(n) extra space.
+If the interviewer requires O(1) extra space, we can then discuss the Boyer–Moore Voting Algorithm.
+
+
+
+Algorithm
+1. Create a HashMap.
+
+2. Traverse the array.
+
+3. For every element:
+
+      if element already exists
+
+            increase its count
+
+      else
+
+            put count = 1
+
+4. Traverse the HashMap.
+
+5. If count > n/2
+
+      return that element
+
+
+      HashMap
+
+      A HashMap stores:
+
+      Key   → Value
+
+      For this problem:
+
+      Key     → Element
+      Value   → Count
+      Example
+
+      Array:
+
+      int arr[] = {3, 3, 4, 2, 4, 4, 2, 4, 4};
+
+      As we traverse the array:
+
+      Element	HashMap
+      3	{3=1}
+      3	{3=2}
+      4	{3=2, 4=1}
+      2	{3=2, 4=1, 2=1}
+      4	{3=2, 4=2, 2=1}
+      4	{3=2, 4=3, 2=1}
+      2	{3=2, 4=3, 2=2}
+      4	{3=2, 4=4, 2=2}
+      4	{3=2, 4=5, 2=2}

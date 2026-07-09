@@ -1,13 +1,16 @@
+
+*************************Kadane’s Algorithm*************************
+
 What Problem Does It Solve?
 Kadane’s Algorithm finds the maximum sum of a subarray (a continuous part of the array).
 This is also called the Maximum Subarray Problem.
 
-✅ Easy Example
+ Easy Example
 Code
 arr = [-2, 1, -3, 4, -1, 2, 1, -5, 4]
 We want the subarray with the largest sum.
 
-🧠 Kadane’s Idea (in plain words)
+ Kadane’s Idea (in plain words)
 Walk through the array one element at a time.
 
 Keep track of:
@@ -20,7 +23,7 @@ If currentSum becomes negative, reset it to 0 (because starting fresh is better)
 
 Update maxSum whenever you find a bigger sum.
 
-✅ Step-by-Step Dry Run
+Step-by-Step Dry Run
 Start: currentSum = 0, maxSum = -∞.
 
 Take -2: currentSum = max(0 + (-2), -2) = -2 → reset to 0.
@@ -43,3 +46,7 @@ Take 4: currentSum = 5 → maxSum = 6.
 
 👉 Final Answer: maxSum = 6
 Subarray = [4, -1, 2, 1].
+
+
+
+Kadane's Algorithm → "Should I continue this subarray or start a new one?"
