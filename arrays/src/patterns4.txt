@@ -73,3 +73,9 @@ Answer
 Final Output
 
 [24,12,8,6]
+
+formula is simple
+take 2 loops and
+and 2 loops insitailzed with 0
+if both elements are equal (example i=1,j=1)
+skip the element rest elements multiply and append to the list
