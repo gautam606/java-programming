@@ -1,0 +1,49 @@
+*********************Dutch National Flag*********************
+
+Imagine you're standing in front of three baskets.
+
+Basket 1 → Only 0s
+Basket 2 → Only 1s
+Basket 3 → Only 2s
+
+Now someone gives you this array:
+
+[2, 0, 2, 1, 1, 0]
+
+Your job is to put every number into its correct basket.
+
+At the end, the array should look like:
+
+[0, 0, 1, 1, 2, 2]
+We need to know:
+
+Where the 0s should go.
+Which number we're currently checking.
+Where the 2s should go.
+
+So we use:
+
+low  → where the next 0 should go
+mid  → the number we're checking
+high → where the next 2 should go
+
+
+Whenever you see:
+
+If it's 0
+
+Think:
+
+"Send it to the left."
+
+If it's 1
+
+Think:
+
+"It's already in the correct middle area."
+
+If it's 2
+
+Think:
+
+"Send it to the right."
