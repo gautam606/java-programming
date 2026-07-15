@@ -47,3 +47,9 @@ If it's 2
 Think:
 
 "Send it to the right."
+
+
+formula to remmeber
+0 → Left
+1 → Stay
+2 → Right
