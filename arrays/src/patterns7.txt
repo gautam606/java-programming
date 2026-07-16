@@ -1,0 +1,118 @@
+What does "Next Permutation" mean?
+
+Suppose you have:
+
+123
+
+What comes next?
+
+132
+
+After that?
+
+213
+
+After that?
+
+231
+
+After that?
+
+312
+
+After that?
+
+321
+
+These are all the possible arrangements (permutations) in increasing order.
+
+So if the current arrangement is:
+
+132
+
+The next permutation is:
+
+213
+Example 1
+
+Input
+
+[1,2,3]
+
+Possible permutations
+
+123
+132
+213
+231
+312
+321
+
+Current is
+
+123
+
+Next is
+
+132
+
+Output
+
+[1,3,2]
+Example 2
+
+Input
+
+[1,3,2]
+
+Current permutation
+
+132
+
+Next permutation
+
+213
+
+Output
+
+[2,1,3]
+Example 3
+
+Input
+
+[3,2,1]
+
+This is already the largest permutation.
+
+There is no next one.
+
+So we go back to the smallest.
+
+[1,2,3]
+Real-Life Example
+
+Imagine three books:
+
+A
+B
+C
+
+You arrange them as
+
+ABC
+
+Tomorrow you want the next arrangement.
+
+ACB
+
+Next day
+
+BAC
+
+Next day
+
+BCA
+
+Each day you move to the next arrangement, not a random one.
+
+That's exactly what this problem asks.
