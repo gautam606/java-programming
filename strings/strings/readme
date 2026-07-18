@@ -1,0 +1,69 @@
+$$$$$$$$$$$$$$$$$$$$$$$ Strings $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+String greeting = "Hello";
+
+String txt = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+System.out.println("The length of the txt string is: " + txt.length());
+
+
+String txt = "Hello World";
+System.out.println(txt.toUpperCase());   // Outputs "HELLO WORLD"
+System.out.println(txt.toLowerCase());   // Outputs "hello world"
+
+
+
+////////////Finding a Character in a String
+
+String txt = "Please locate where 'locate' occurs!";
+System.out.println(txt.indexOf("locate")); // Outputs 7
+
+
+String txt = "Hello";
+System.out.println(txt.charAt(0));  // H
+System.out.println(txt.charAt(4));  // o
+
+
+
+/////////////Comparing Strings
+
+String txt1 = "Hello";
+String txt2 = "Hello";
+
+String txt3 = "Greetings";
+String txt4 = "Great things";
+
+System.out.println(txt1.equals(txt2));  // true
+System.out.println(txt3.equals(txt4));  // false
+
+Phase 1 – Basic Problems
+
+Problem 1 (Very Easy)
+
+Count the number of vowels in a string.
+
+Example:
+
+Input: "education"
+
+Output: 5
+
+Concepts:
+
+charAt()
+Loop
+if condition
+Problem 2 (Easy)
+
+Reverse a string.
+
+Example:
+
+Input: "gaurav"
+
+Output: "varuag"
+
+Concepts:
+
+Loop
+StringBuilder (later) or simple concatenation for now
