@@ -67,3 +67,39 @@ Concepts:
 
 Loop
 StringBuilder (later) or simple concatenation for now
+
+Phase 1 – Problem 3
+Check if a String is a Palindrome
+
+Example:
+
+Input: "madam"
+
+Output:
+Palindrome
+Input: "hello"
+
+Output:
+Not Palindrome
+Concepts
+Two Pointers (or reverse string)
+charAt()
+
+
+Phase 1 – Problem 4
+Count Frequency of Each Character
+
+Example:
+
+Input:
+banana
+
+Output:
+b -> 1
+a -> 3
+n -> 2
+Concepts
+HashMap
+Character Traversal
+
+This is the string equivalent of the Majority Element frequency counting you already learned.
