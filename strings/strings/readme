@@ -103,3 +103,48 @@ HashMap
 Character Traversal
 
 This is the string equivalent of the Majority Element frequency counting you already learned.
+
+
+Phase 1 – Problem 5
+Check if Two Strings are Anagrams
+
+Example:
+
+Input:
+listen
+silent
+
+Output:
+True
+
+Example:
+
+Input:
+hello
+world
+
+Output:
+False
+Concepts
+HashMap or
+Frequency Array (26 letters)
+
+This is one of the most common string interview problems.
+
+
+Problem 6 – Remove Duplicate Characters
+Example
+Input:
+programming
+
+Output:
+progamin
+
+(Keep only the first occurrence of each character.)
+
+Concepts
+HashSet
+StringBuilder
+String Traversal
+
+Pattern: Hashing + Strings
