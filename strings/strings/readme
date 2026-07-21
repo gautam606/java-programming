@@ -148,3 +148,57 @@ StringBuilder
 String Traversal
 
 Pattern: Hashing + Strings
+
+
+Problem 7 – Count Words in a Sentence
+Example
+Input:
+"I love Java programming"
+
+Output:
+4
+
+Example:
+
+Input:
+"ChatGPT is amazing"
+
+Output:
+3
+
+
+
+Problem 8 – Check if Two Strings are Rotations
+Problem Statement
+
+Given two strings, determine whether one string is a rotation of the other.
+
+Example 1
+Input:
+s1 = "ABCD"
+s2 = "CDAB"
+
+Output:
+True
+
+Explanation:
+
+ABCD
+ ↓ Rotate
+BCDA
+ ↓ Rotate
+CDAB ✅
+Example 2
+Input:
+s1 = "hello"
+s2 = "llohe"
+
+Output:
+True
+Example 3
+Input:
+s1 = "hello"
+s2 = "world"
+
+Output:
+False
