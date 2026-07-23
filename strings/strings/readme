@@ -202,3 +202,30 @@ s2 = "world"
 
 Output:
 False
+
+
+
+🟢 Phase 2 Problem 9
+Longest Common Prefix
+
+Example 1
+
+Input:
+["flower","flow","flight"]
+
+Output:
+"fl"
+
+Example 2
+
+Input:
+["dog","racecar","car"]
+
+Output:
+""
+
+Concepts
+
+String Traversal
+Comparing characters
+Common prefix
