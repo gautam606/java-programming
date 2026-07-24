@@ -229,3 +229,29 @@ Concepts
 String Traversal
 Comparing characters
 Common prefix
+
+
+ Phase 2 Problem 10
+First Non-Repeating Character
+
+Example
+
+Input:
+"leetcode"
+
+Output:
+'l'
+
+Example
+
+Input:
+"aabb"
+
+Output:
+No non-repeating character
+
+Concepts
+
+HashMap
+Frequency Counting
+String Traversal
