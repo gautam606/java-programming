@@ -275,3 +275,30 @@ Split
 Reverse Order
 
 
+Phase 2 Problem 12
+Isomorphic Strings
+
+Example 1
+
+Input:
+s = "egg"
+t = "add"
+
+Output:
+true
+
+Example 2
+
+Input:
+s = "foo"
+t = "bar"
+
+Output:
+false
+
+Concepts
+
+HashMap
+Character Mapping
+
+
