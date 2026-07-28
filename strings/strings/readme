@@ -302,3 +302,43 @@ HashMap
 Character Mapping
 
 
+
+    Phase 2 – Problem 13
+    Find the First Repeating Character in a String
+    Problem Statement
+
+    Given a string, find the first character that repeats.
+
+    Example 1
+    Input:
+    "programming"
+
+    Output:
+    'r'
+
+    Explanation:
+
+    p → first time
+    r → first time
+    o → first time
+    g → first time
+    r → repeats first ✅
+    Example 2
+    Input:
+    "abccde"
+
+    Output:
+    'c'
+    Example 3
+    Input:
+    "abcdef"
+
+    Output:
+    No repeating character
+    Concepts Used
+    String Traversal
+    HashMap or HashSet
+    Character Frequency
+
+
+
