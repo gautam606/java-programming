@@ -342,3 +342,24 @@ Character Mapping
 
 
 
+     Phase 2 – Problem 14
+    Longest Palindromic Substring
+    Example 1
+    Input:
+    "babad"
+
+    Output:
+    "bab"
+
+    or
+
+    "aba"
+    Example 2
+    Input:
+    "cbbd"
+
+    Output:
+    "bb"
+
+
+
