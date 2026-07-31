@@ -390,3 +390,39 @@ t = "aa"
 Output:
 ""
 
+
+Phase 2 – Problem 15
+Length of Last Word
+Example 1
+Input:
+"Hello World"
+
+Output:
+5
+
+Explanation:
+
+Last word = "World"
+Length = 5
+Example 2
+Input:
+"   fly me   to   the moon  "
+
+Output:
+4
+
+Explanation:
+
+Last word = "moon"
+Length = 4
+Example 3
+Input:
+"luffy is still joyboy"
+
+Output:
+6
+
+Explanation:
+
+Last word = "joyboy"
+Length = 6
