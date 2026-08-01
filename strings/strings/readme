@@ -426,3 +426,13 @@ Explanation:
 
 Last word = "joyboy"
 Length = 6
+
+
+Phase 2 – Problem 16
+Problem: Find the First Non-Repeating Character
+Task: Write a function that returns the first character in a string that does not repeat.
+Example:
+
+Input → "swiss" → Output → "w"
+
+Input → "level" → Output → "v"

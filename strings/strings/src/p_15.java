@@ -19,7 +19,7 @@ public class p_15 {
 
 
         int length = s.length() - lastSpace - 1;
-        
+
         System.out.println(length);
     }
 }
