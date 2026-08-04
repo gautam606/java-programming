@@ -446,3 +446,14 @@ t = "abcde"
 
 Output:
 'e'
+
+Problem 2: Length of Last Word
+Input:
+"Hello World"
+
+Output:
+5
+
+Concept:
+
+Reverse Traversal
