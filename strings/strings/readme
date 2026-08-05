@@ -457,3 +457,15 @@ Output:
 Concept:
 
 Reverse Traversal
+
+phase 2 problem 19
+Detect Capital
+Input:
+"USA"
+
+Output:
+true
+
+Concept:
+
+Character Checking
