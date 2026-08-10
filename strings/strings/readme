@@ -484,3 +484,26 @@ Concept:
 
 Split
 Reverse
+
+
+phase 2 Problem 22: Is Subsequence
+s = "abc"
+t = "ahbgdc"
+
+Output:
+
+true
+
+Why?
+
+a → found
+b → found
+c → found
+
+in the same order.
+
+Concepts
+Two Pointers
+String Traversal
+Time Complexity
+O(n)
