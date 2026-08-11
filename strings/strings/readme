@@ -507,3 +507,48 @@ Two Pointers
 String Traversal
 Time Complexity
 O(n)
+
+
+phase 2 problem 23:Valid Palindrome
+
+Given a string, return:
+
+true
+
+if it is a palindrome, otherwise:
+
+false
+Example 1
+Input:
+"madam"
+
+Output:
+true
+
+Because:
+
+Forward  = madam
+Backward = madam
+
+Same.
+
+Example 2
+Input:
+"racecar"
+
+Output:
+true
+Example 3
+Input:
+"hello"
+
+Output:
+false
+
+Because:
+
+Forward  = hello
+Backward = olleh
+
+Time Complexity
+O(n)
