@@ -552,3 +552,42 @@ Backward = olleh
 
 Time Complexity
 O(n)
+
+
+phase 2 Problem 4: Reverse Words in a String III
+Example 1
+Input:
+"Let's code"
+
+Output:
+"s'teL edoc"
+Example 2
+Input:
+"I love Java"
+
+Output:
+"I evol avaJ"
+What is the problem asking?
+
+Reverse each word individually.
+
+But keep the word order the same.
+
+Example
+I love Java
+
+Words:
+
+I
+love
+Java
+
+Reverse each:
+
+I
+evol
+avaJ
+
+Join them:
+
+I evol avaJ
